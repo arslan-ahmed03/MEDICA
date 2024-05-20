@@ -1,0 +1,667 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+.header-top{
+	width: 100%;
+	background-color: #F7F7F9;
+	border-bottom: 2px solid #F0EEEE;
+}
+div.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.top-main{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.top-heading{
+	width: 33%;
+}
+.top-heading h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+}
+.top-icon{
+	width: 39%;
+	
+}
+
+	
+.top-inner-main{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.t-icon{
+	margin: 12px;
+	color: #32C3CF;
+	font-size: 20px;
+}
+
+
+.topbar-btn button{
+	width: 100%;
+    color: white;
+   
+    padding: 15px 40px 15px 40px;
+    background-color: #32C3CF;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; 
+    border: none;
+    
+}
+
+.medica-main{
+	width: 100%;
+	display: flex;
+	align-items: center;
+
+}
+.medica-logo{
+	width: 25%;
+
+}
+
+.medica-logo img{
+	width: 130px;
+}
+.medica-info{
+	width: 25%;
+	padding: 17px 0px;
+
+}
+.medica-inner{
+	width: 40px;
+	height: 40px;
+	border-radius: 1px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #32C3CF;
+	position: relative;
+}
+
+.medica-info h1{
+	font-family: sans-serif;
+	font-size: 18px;
+
+}
+.content{
+	position: absolute;
+	top: 50px;
+	margin-left: 50px;
+	padding: 19px 0px;
+}
+
+.content h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+
+}
+
+.content p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	color: #9D9B9F;
+}
+.contact-icon{
+	color: #32C3CF;
+}
+nav{
+	width: 100%;
+	background-color: #32C3CF;
+}
+
+
+.nav-main{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 0px;
+
+}
+
+
+.nav-col1{
+	width: 70%;
+
+}
+
+.nav-col1 ul li{
+    display: inline;
+    margin: 10px;
+    
+}
+
+.nav-col1 ul li a{
+	font-family: sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: none;
+	list-style-type: none;
+
+}
+.nav-icon{
+	width: 2%;
+}
+.search-icon{
+	color: #ffffff;
+}
+
+.bg-image{
+	background: linear-gradient( rgba(0,0,0,0), rgba(0,0,0,0)), url('../images/doctor.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: 100%;
+	height: 90vh;
+}
+
+.banner-1-main{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	flex-direction: column;
+	padding-top: 130px;
+}
+
+.bn1-inner-main{
+	height: fit-content;
+	width: fit-content;
+	display: flex;
+
+}
+
+.bn1-content{
+	text-align: center;
+
+}
+.bn1-content h5{
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+
+
+}
+.bn1-content h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	padding: 12px 0px;
+	color: #44B8C6;
+	
+
+}
+
+.bn1-content p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	padding: 0px 75px;
+	
+
+}
+
+
+.bn1-btn{
+	padding-top: 10px;
+}
+
+.button-2{
+    
+    color: white;  
+    padding: 8px 33px 8px 33px;
+    background-color: #ffffff;
+    color:  #33C2D0;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+    border: 2px solid #37B2B9;
+    border-radius: 20px;
+    
+}
+
+.button-1{
+
+	color: white;
+    padding: 8px 33px 8px 33px;
+    background-color: #33C2D0;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+    border: 2px solid #37B2B9;
+    border-radius: 20px;
+    position: relative;
+    left: 25px;
+    
+
+}
+
+.banner-2{
+	background-color: #86D8E3;
+}
+
+.bann2-main {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0px;
+
+}
+
+.doctor-passion{
+	width: 25%;
+}
+
+
+.doctor-passion h4{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #ffffff;
+	font-weight: 500;
+
+}
+
+.doctor-passion hr{
+
+	border: 1px solid #ffffff;
+	margin: 2px 0px 12px 0px;
+	width: 30%;
+
+}
+.doctor-passion p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	padding: 0px 70px 10px 0px;
+
+}
+
+.banner2-btn button{
+
+	 
+    padding: 5px 20px 5px 20px;
+    background-color: #86D8E3;
+    color:  #ffffff;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+    font-size: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+
+}
+
+.banner-3-main{
+	width: 100%;
+	display: flex;
+}
+.bn3-clinic {
+	width: 70%;
+	padding: 70px 0px;
+
+}
+
+
+.bn3-clinic h1{
+	font-family: 'Roboto', sans-serif;
+    font-weight: 500; 
+    font-size: 20px;
+    padding-bottom: 8px;
+
+}
+.bn3-clinic h6{
+	font-family: 'Roboto', sans-serif;
+    font-weight: 500; 
+    color: #8E8E90;
+    font-size: 15px;
+
+}
+
+.bn3-clinic hr{
+
+	border: 1px solid #8E8E90;
+	margin: 8px 0px 30px 0px;
+	width: 20%;
+
+}
+
+.bn3-clinic p{
+	font-family: 'Roboto', sans-serif;
+    
+    color: #8E8E90;
+    font-size: 15px;
+
+}
+
+.bn3-inner-main{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.inner-icon{
+	
+	position: relative;
+	top: 30px
+
+}
+
+.inner-para{
+	padding: 0px 0px 0px 40px;
+	
+
+}
+.inner-para p{
+	font-family: 'Roboto', sans-serif;
+    
+    color: #8E8E90;
+    font-size: 15px;
+    
+
+}
+
+.bn3-icon{
+	color: #72B5B2; 
+	font-size: 25px;
+
+}
+
+.bn3-worktime {
+	width: 30%;
+	background-color: #37C0D2;
+	text-align: center;
+	padding: 70px 0px;
+
+}
+.care-icon{
+	color: #ffffff;
+	font-size: 30px;
+}
+.bn3-worktime h1{
+	color: #ffffff;
+	font-size: 25px;
+	padding: 10px 0px 40px 0px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.bn3-worktime p{
+	color: #ffffff;
+	padding-top: 10px;
+}
+
+
+.bn3-worktime ul li {
+	margin: 10px;
+
+	font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+	list-style-type: none;
+
+}
+
+.banner-4{
+	width: 100%;
+	display: flex;
+
+}
+.bn4-bg-image{
+	width: 25%;
+	
+}
+
+.bn4-bg-image img{
+	width: 100%;
+	height: 100%;
+
+}
+
+.banner-5{
+	background-color: #4F4F59;
+}
+
+.banner-counter{
+	width: 100%;
+	display: flex;
+	text-align: center;
+	padding: 60px 0px 60px 0px;
+}
+.banner-col{
+	width: 25%;
+}
+.banner-col h1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 55px; 
+	color: #ffffff;
+}
+.banner-col p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	color: #ffffff; 
+}
+.f-bg{
+	width: 100%;
+	background-color: #20282B;
+	padding: 40px 0px;
+
+}
+
+.f-inner-main{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.f-content{
+	width: 15%;
+	
+
+}
+.f-content img{
+	width: 130px;
+}
+.f-content p{
+	color: #4B5862;
+	font-size: 18px;
+	font-family:  'Bitter', serif;
+}
+
+.inner-row3 {
+	width: 100%;
+	background-color: #222222;
+	padding: 20px 0px;
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	text-align: center;
+}
+
+
+@media only screen and (max-width:480px) {
+
+	div.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.bg-image {
+    background: linear-gradient( rgba(0,0,0,0), rgba(0,0,0,0)), url(../images/doctor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 100%;
+    height: 30vh;
+}
+.banner-1-main {
+    /* width: 50%; */
+    /* height: 100%; */
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 0;
+}
+.bn1-content h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.bn1-content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    padding: 12px 0px;
+    color: #44B8C6;
+}
+.bn1-content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 0px 75px;
+}
+.bann2-main {
+    width: 100%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+.doctor-passion {
+    width: 100%;
+}
+.doctor-passion h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.doctor-passion hr {
+    border: 1px solid #ffffff;
+    /* margin: 2px 0px 12px 0px; */
+    width: 30%;
+    margin: 0 auto;
+}
+
+.doctor-passion p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    padding: 10px 40px;
+}
+.banner-3-main {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.bn3-clinic {
+    width: 100%;
+    padding: 70px 0px;
+}
+.bn3-clinic h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+.bn3-clinic hr {
+    border: 1px solid #8E8E90;
+    /* margin: 8px 0px 30px 0px; */
+    width: 30%;
+    margin: 0 auto;
+}
+.bn3-clinic p {
+    font-family: 'Roboto', sans-serif;
+    color: #8E8E90;
+    /* text-align: center; */
+    font-size: 18px;
+    padding: 13px 40px;
+}
+.bn3-inner-main {
+    width: 100%;
+    display: block;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.inner-icon {
+    position: relative;
+    /* top: 30px; */
+}
+.bn3-icon {
+    color: #72B5B2;
+    font-size: 30px;
+}
+.inner-para p {
+    font-family: 'Roboto', sans-serif;
+    color: #8E8E90;
+    font-size: 18px;
+}
+.bn3-worktime {
+    width: 100%;
+    background-color: #37C0D2;
+    text-align: center;
+    padding: 70px 0px;
+}
+.care-icon {
+    color: #ffffff;
+    font-size: 35px;
+}
+.bn3-worktime ul li {
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.banner-4 {
+    width: 100%;
+    display: block;
+    }
+.bn4-bg-image {
+    width: 100%;
+}
+.banner-counter {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 60px 0px 60px 0px;
+}
+.banner-col {
+    width: 100%;
+}
+.banner-col h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 55px;
+    color: #ffffff;
+    padding: 10px 0px;
+}
+.f-inner-main {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.f-content {
+    width: 100%;
+}
+	
+
+
+}
+
